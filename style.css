@@ -1,0 +1,45 @@
+p {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 16px;
+}
+
+header {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h2 {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 40px;
+}
+
+h1 {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 50px;
+}
+
+div.a {
+    text-align: justify;
+    line-height: 1.6;
+  } 
+
+#myBtn {
+    margin:0 auto;
+    display:block;
+    padding: 10px 24px;
+    border-radius: 99px;
+    border: 2px solid #000000;
+    background-color: #FFFFFF;
+    margin-bottom: 60px;
+    cursor: pointer;
+  }
+
+  #myBtn:active {
+    color: #B0B0B0;
+  }
+
+
+  
