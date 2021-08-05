@@ -108,7 +108,7 @@ hr.dot {
 #box a:hover {
     color: #347deb;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
 }
   
 #box a:active {
