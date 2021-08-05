@@ -94,25 +94,25 @@ hr.dot {
 }
 
 #box a:link {
-    color: #34eb62;
+    color: #2ccc34;
     background-color: transparent;
     text-decoration: none;
 }
 
 #box a:visited {
-    color: #34eb62;
+    color: #2ccc34;
     background-color: transparent;
     text-decoration: none;
 }
 
 #box a:hover {
-    color: #34eb62;
+    color: #2ccc34;
     background-color: transparent;
     text-decoration: none;
 }
   
 #box a:active {
-    color: #34eb62;
+    color: #2ccc34;
     background-color: transparent;
 }
 
