@@ -17,25 +17,25 @@ nav {
     word-spacing: 26px;
 }
 
-a:link {
+nav a:link {
     color: #b5b3be;
     background-color: transparent;
     text-decoration: none;
 }
 
-a:visited {
+nav a:visited {
     color: #b5b3be;
     background-color: transparent;
     text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
     color: #b5b3be;
     background-color: transparent;
     text-decoration: none;
 }
   
-a:active {
+nav a:active {
     color: #b5b3be;
     background-color: transparent;
 }
@@ -93,25 +93,25 @@ hr.dot {
     padding-bottom: 30px;
 }
 
-#box a:link {
+a:link {
     color: #347deb;
     background-color: transparent;
     text-decoration: none;
 }
 
-#box a:visited {
+a:visited {
     color: #347deb;
     background-color: transparent;
     text-decoration: none;
 }
 
-#box a:hover {
+a:hover {
     color: #347deb;
     background-color: transparent;
     text-decoration: underline;
 }
   
-#box a:active {
+a:active {
     color: #347deb;
     background-color: transparent;
 }
