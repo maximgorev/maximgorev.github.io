@@ -10,7 +10,7 @@ nav {
     font-size: 40%;
     color:#000000;
     background-color: #ffffff;
-    border-radius: 12px;
+    border-radius: 14px;
     padding: 12px;
     padding-left: 32px;
     padding-right: 32px;
@@ -52,7 +52,7 @@ p {
 }
 
 #box {
-    border-radius: 12px;
+    border-radius: 14px;
     background: #ffffff;
     padding: 0px;
     width: 100%;
@@ -157,7 +157,7 @@ gr {
     margin:0 auto;
     display:block;
     padding: 10px 24px;
-    border-radius: 12px;
+    border-radius: 14px;
     border: none;
     background-color: #000000;
     color: #ffffff;
