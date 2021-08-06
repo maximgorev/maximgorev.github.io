@@ -72,14 +72,14 @@ p {
     padding-top: 40px;
 }
 
-hr.dot {
+hr {
     border: 4px dotted #322c3a;
     border-style: none none dotted;
     color: #211d27; 
     background-color: #211d27;
 }
 
-#box hr.dot{
+#box hr {
     color:#211d27;
     margin-left: 40px;
     margin-right: 40px;
