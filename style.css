@@ -130,47 +130,10 @@ desc {
     color: #f5efef96;
 }
 
-pt {
-    color: #53e96c;
-}
-
 sl {
     color: #347deb;
 }
 
-date {
+gris {
     color: #868686;
-}
-
-gr {
-    background-color: #edebf5;
-    border-radius: 10px;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-  }
-
-#top {
-    margin:0 auto;
-    display:block;
-    padding: 10px 24px;
-    border-radius: 14px;
-    border: none;
-    background-color: #000000;
-    color: #ffffff;
-    margin-bottom: 46px;
-    cursor: pointer;
-}
-
-#top:active {
-    color: #b5b3be;
-}
-
-img {
-    padding-left: 40px;
-    padding-right: 40px;
 }
