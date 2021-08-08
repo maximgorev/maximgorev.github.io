@@ -18,25 +18,25 @@ nav {
 }
 
 nav a:link {
-    color: #b5b3be;
+    color: #a5c6f8;
     background-color: transparent;
     text-decoration: none;
 }
 
 nav a:visited {
-    color: #b5b3be;
+    color: #a5c6f8;
     background-color: transparent;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #b5b3be;
+    color: #a5c6f8;
     background-color: transparent;
     text-decoration: none;
 }
   
 nav a:active {
-    color: #b5b3be;
+    color: #a5c6f8;
     background-color: transparent;
 }
 
@@ -135,7 +135,7 @@ pt {
 }
 
 sl {
-    color: #242425;
+    color: #347deb;
 }
 
 date {
