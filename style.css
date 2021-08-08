@@ -62,14 +62,14 @@ p {
 #box h2 {
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 40px;
+    padding-top: 0px;
 }
 
 #box h3 {
     color:#ffffff;
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 40px;
+    padding-top: 0px;
 }
 
 hr {
@@ -77,13 +77,13 @@ hr {
     border-style: none none dotted;
     color: #000000; 
     margin-left: 40px;
-    margin-right: 40px;
+    margin-right: 0px;
 }
 
 #box hr {
     color:#211d27;
     margin-left: 40px;
-    margin-right: 40px;
+    margin-right: 0px;
 }
 
 #box p{
@@ -91,7 +91,7 @@ hr {
     text-align: justify;
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 
 a:link {
