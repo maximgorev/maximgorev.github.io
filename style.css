@@ -17,31 +17,10 @@ nav {
     word-spacing: 26px;
 }
 
-nav a:link {
-    color: #a5c6f8;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-nav a:visited {
-    color: #a5c6f8;
-    background-color: transparent;
-    text-decoration: none;
-}
-
 nav a:hover {
-    color: #a5c6f8;
+    color: #347deb;
     background-color: transparent;
     text-decoration: none;
-}
-  
-nav a:active {
-    color: #a5c6f8;
-    background-color: transparent;
-}
-
-h2 {
-    color: #000000;
 }
 
 p {
@@ -60,6 +39,7 @@ p {
 }
 
 #box h2 {
+    color: #000000;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 0px;
@@ -123,15 +103,6 @@ text {
     font-size: 90%;
     letter-spacing: -0.5px;
     padding: 0px 4px;
-}
-
-desc {
-    font-size: 90%;
-    color: #f5efef96;
-}
-
-sl {
-    color: #347deb;
 }
 
 gris {
