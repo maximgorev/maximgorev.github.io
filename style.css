@@ -2,14 +2,13 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     font-family: Avenir Next;
-    color: #000000;
-    background-color: #ece9f7;
+    color: #ffffff;
+    background-color: #000000;
 }
 
 nav {
     font-size: 40%;
-    color:#000000;
-    background-color: #ffffff;
+    background-color: #202020;
     border-radius: 14px;
     padding: 12px;
     padding-left: 32px;
@@ -27,19 +26,19 @@ p {
     line-height: 200%;
     text-align: justify;
     font-size: 94%;
-    color: #f2ecf8;
+    color: #ffffff;
 }
 
 #box {
     border-radius: 14px;
-    background: #ffffff;
+    background: #202020;
     padding: 0px;
     width: 100%;
     height: min-content;
 }
 
 #box h2 {
-    color: #000000;
+    color: #ffffff;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 0px;
@@ -55,19 +54,18 @@ p {
 hr {
     border: 1px solid #000000;
     border-style: none none dotted;
-    color: #000000; 
+    color: #868686; 
     margin-left: 40px;
     margin-right: 0px;
 }
 
 #box hr {
-    color:#211d27;
     margin-left: 40px;
     margin-right: 0px;
 }
 
 #box p{
-    color:#000000;
+    color:#ffffff;
     text-align: justify;
     padding-left: 40px;
     padding-right: 40px;
