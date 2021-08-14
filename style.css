@@ -10,7 +10,7 @@ nav {
     font-size: 40%;
     color:#ffffff;
     background-color: #1a1a1a;
-    border-radius: 10px;
+    border-radius: 12px;
     padding: 12px;
     padding-left: 32px;
     padding-right: 32px;
@@ -31,7 +31,7 @@ p {
 }
 
 #box {
-    border-radius: 10px;
+    border-radius: 12px;
     background: #1a1a1a;
     padding: 0px;
     width: 100%;
