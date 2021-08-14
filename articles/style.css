@@ -17,7 +17,7 @@ nav {
 }
 
 nav a:hover {
-    color: #347deb;
+    color: #3e88f8;
     background-color: transparent;
     text-decoration: none;
 }
@@ -73,25 +73,25 @@ hr {
 }
 
 a:link {
-    color: #347deb;
+    color: #3e88f8;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: #347deb;
+    color: #3e88f8;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: #347deb;
+    color: #3e88f8;
     background-color: transparent;
     text-decoration: underline;
 }
   
 a:active {
-    color: #347deb;
+    color: #3e88f8;
     background-color: transparent;
 }
 
