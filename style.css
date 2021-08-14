@@ -8,7 +8,8 @@ body {
 
 nav {
     font-size: 40%;
-    background-color: #1a1a1a;
+    color:#ffffff;
+    background-color: #ffffff;
     border-radius: 14px;
     padding: 12px;
     padding-left: 32px;
@@ -17,7 +18,7 @@ nav {
 }
 
 nav a:hover {
-    color: #3e88f8;
+    color: #1b75fc;
     background-color: transparent;
     text-decoration: none;
 }
@@ -26,19 +27,19 @@ p {
     line-height: 200%;
     text-align: justify;
     font-size: 94%;
-    color: #ffffff;
+    color: #f2ecf8;
 }
 
 #box {
     border-radius: 14px;
-    background: #1a1a1a;
+    background: #ffffff;
     padding: 0px;
     width: 100%;
     height: min-content;
 }
 
 #box h2 {
-    color: #ffffff;
+    color: #000000;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 0px;
@@ -54,18 +55,19 @@ p {
 hr {
     border: 1px solid #000000;
     border-style: none none dotted;
-    color: #868686; 
+    color: #000000; 
     margin-left: 40px;
     margin-right: 0px;
 }
 
 #box hr {
+    color:#211d27;
     margin-left: 40px;
     margin-right: 0px;
 }
 
 #box p{
-    color:#ffffff;
+    color:#000000;
     text-align: justify;
     padding-left: 40px;
     padding-right: 40px;
@@ -73,25 +75,25 @@ hr {
 }
 
 a:link {
-    color: #3e88f8;
+    color: #1b75fc;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: #3e88f8;
+    color: #1b75fc;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: #3e88f8;
+    color: #1b75fc;
     background-color: transparent;
     text-decoration: underline;
 }
   
 a:active {
-    color: #3e88f8;
+    color: #1b75fc;
     background-color: transparent;
 }
 
