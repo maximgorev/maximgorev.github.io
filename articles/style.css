@@ -2,13 +2,13 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     font-family: Avenir Next;
-    color: #ffffff;
-    background-color: #000000;
+    color: #000000;
+    background-color: #f5f6fa;
 }
 
 nav {
     font-size: 40%;
-    background-color: #1a1a1a;
+    background-color: #ffffff;
     border-radius: 12px;
     padding: 12px;
     padding-left: 32px;
@@ -31,21 +31,21 @@ p {
 
 #box {
     border-radius: 12px;
-    background: #1a1a1a;
+    background: #ffffff;
     padding: 0px;
     width: 100%;
     height: min-content;
 }
 
 #box h2 {
-    color: #ffffff;
+    color: #000000;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 0px;
 }
 
 #box h3 {
-    color:#ffffff;
+    color:#000000;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 0px;
@@ -65,7 +65,7 @@ hr {
 }
 
 #box p{
-    color:#ffffff;
+    color:#000000;
     text-align: justify;
     padding-left: 40px;
     padding-right: 40px;
