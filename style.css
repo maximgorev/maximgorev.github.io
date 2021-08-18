@@ -109,7 +109,8 @@ gris {
 }
 
 high {
-    background-color: #d7d7d7;
+    background-color: #f5f6fa;
     border-radius: 4px;
-    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
 }
