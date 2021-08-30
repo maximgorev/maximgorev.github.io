@@ -23,22 +23,6 @@ body {
     }
 }
 
-p {
-    line-height: 200%;
-    text-align: justify;
-    font-size: 94%;
-    color: #f2ecf8;
-}
-
-@media (max-width: 500px) {
-    p {
-    line-height: 200%;
-    text-align: left;
-    font-size: 70%;
-    color: #f2ecf8;
-    }
-}
-
 #box {
     border-radius: 12px;
     background: #ffffff;
@@ -64,20 +48,25 @@ p {
     }
 }
 
-#box p{
+#box p {
     color:#000000;
     text-align: justify;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 0px;
+    line-height: 200%;
+    font-size: 94%;
 }
 
 @media (max-width: 500px) {
-    #box p{
+    #box p {
     color:#000000;
     text-align: justify;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 0px;
+    line-height: 200%;
+    text-align: left;
+    font-size: 78%;
     }
 }
