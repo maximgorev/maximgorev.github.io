@@ -6,20 +6,14 @@ body {
     background-color: #f5f6fa;
 }
 
-nav {
-    font-size: 40%;
-    background-color: #ffffff;
-    border-radius: 12px;
-    padding: 12px;
-    padding-left: 32px;
-    padding-right: 32px;
-    word-spacing: 26px;
-}
-
-nav a:hover {
-    color: #1b75fc;
-    background-color: transparent;
-    text-decoration: none;
+@media (max-width: 800px) {
+    body {
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: Avenir Next;
+    color: #000000;
+    background-color: #f5f6fa;
+    }
 }
 
 p {
@@ -27,6 +21,15 @@ p {
     text-align: justify;
     font-size: 94%;
     color: #f2ecf8;
+}
+
+@media (max-width: 800px) {
+    p {
+    line-height: 200%;
+    text-align: left;
+    font-size: 70%;
+    color: #f2ecf8;
+    }
 }
 
 #box {
@@ -42,6 +45,16 @@ p {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 0px;
+}
+
+@media (max-width: 800px) {
+    #box h2 {
+    color: #000000;
+    font-size: 108%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+    }
 }
 
 #box h3 {
@@ -106,11 +119,4 @@ text {
 
 gris {
     color: #868686;
-}
-
-high {
-    background-color: #f5f6fa;
-    border-radius: 4px;
-    padding-left: 6px;
-    padding-right: 6px;
 }
