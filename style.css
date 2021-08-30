@@ -6,7 +6,7 @@ body {
     background-color: #f5f6fa;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     body {
     margin-left: 4%;
     margin-right: 4%;
@@ -16,7 +16,7 @@ body {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     h1 {
     font-size: 162%;
     text-align: center;
@@ -30,7 +30,7 @@ p {
     color: #f2ecf8;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     p {
     line-height: 200%;
     text-align: left;
@@ -54,7 +54,7 @@ p {
     padding-top: 0px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     #box h2 {
     color: #000000;
     font-size: 108%;
@@ -72,7 +72,7 @@ p {
     padding-bottom: 0px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     #box p{
     color:#000000;
     text-align: justify;
