@@ -16,6 +16,13 @@ body {
     }
 }
 
+@media (max-width: 800px) {
+    h1 {
+    font-size: 162%;
+    text-align: center;
+    }
+}
+
 p {
     line-height: 200%;
     text-align: justify;
