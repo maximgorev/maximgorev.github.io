@@ -1,0 +1,121 @@
+body {
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: Avenir Next;
+    color: #000000;
+    background-color: #f5f6fa;
+}
+
+nav {
+    background-color: #ffffff;
+    border-radius: 99px;
+    padding: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+nav a:hover {
+    color: #1b75fc;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 162%;
+}
+
+p {
+    line-height: 200%;
+    text-align: left;
+    font-size: 70%;
+    color: #f2ecf8;
+}
+
+#box {
+    border-radius: 12px;
+    background: #ffffff;
+    padding: 0px;
+    width: 100%;
+    height: min-content;
+}
+
+#box h2 {
+    color: #000000;
+    font-size: 108%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+}
+
+#box h3 {
+    color:#000000;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+}
+
+#box h5 {
+    color:#000000;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+hr {
+    border: 1px solid #dadada;
+    border-style: none none solid;
+    color: #000000; 
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#box p{
+    color:#000000;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+}
+
+a:link {
+    color: #1b75fc;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1b75fc;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1b75fc;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: #1b75fc;
+    background-color: transparent;
+}
+
+text {
+    color: #325f7e;
+    font-family: Andale Mono;
+    font-size: 90%;
+    letter-spacing: -0.5px;
+    padding: 0px 4px;
+}
+
+gris {
+    color: #868686;
+}
+
+high {
+    background-color: #f5f6fa;
+    border-radius: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
