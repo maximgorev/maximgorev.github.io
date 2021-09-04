@@ -44,7 +44,7 @@ body {
     font-size: 108%;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 20px;
+    padding-top: 25px;
     }
 }
 
@@ -53,7 +53,7 @@ body {
     text-align: justify;
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 0px;
+    padding-bottom: 5px;
     line-height: 200%;
     font-size: 94%;
 }
@@ -64,7 +64,7 @@ body {
     text-align: justify;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 0px;
+    padding-bottom: 5px;
     line-height: 200%;
     text-align: left;
     font-size: 78%;
