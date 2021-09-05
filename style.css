@@ -1,0 +1,81 @@
+body {
+    margin-left: 16%;
+    margin-right: 16%;
+    font-family: Avenir Next;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+@media (max-width: 800px) {
+    body {
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: Avenir Next;
+    color: #ffffff;
+    background-color: #000000;
+    }
+}
+
+h1 {
+    font-size: 300%;
+    text-align: left;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 200%;
+        text-align: center;
+    }
+}
+
+
+
+#box {
+    border-radius: 12px;
+    background: #0a0a0a;
+    border: 1px solid #222222;
+    padding: 0px;
+    width: 100%;
+    height: min-content;
+}
+
+#box h2 {
+    color: #ffffff;
+    font-size: 136%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+@media (max-width: 800px) {
+    #box h2 {
+    color: #ffffff;
+    font-size: 108%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    }
+}
+
+#box p {
+    color:#ffffff;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    line-height: 200%;
+    font-size: 84%;
+}
+
+@media (max-width: 800px) {
+    #box p {
+    color:#ffffff;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    line-height: 200%;
+    text-align: left;
+    font-size: 78%;
+    }
+}
