@@ -17,8 +17,8 @@ body {
 }
 
 h1 {
-    font-size: 300%;
-    text-align: left;
+    font-size: 250%;
+    text-align: center;
 }
 
 @media (max-width: 800px) {
