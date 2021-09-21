@@ -85,7 +85,7 @@ a:active {
     padding-right: 40px;
     padding-bottom: 20px;
     line-height: 180%;
-    font-size: 84%;
+    font-size: 95%;
 }
 
 @media (max-width: 800px) {
@@ -96,6 +96,6 @@ a:active {
     padding-right: 30px;
     padding-bottom: 10px;
     line-height: 180%;
-    font-size: 80%;
+    font-size: 90%;
     }
 }
