@@ -54,7 +54,7 @@ a:active {
 #box {
     border-radius: 12px;
     background: #131313;
-    border: 1px solid #303030;
+    border: 2px solid #303030;
     padding: 0px;
     width: 100%;
     height: min-content;
