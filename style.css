@@ -47,7 +47,6 @@ a:visited {
 a:hover {
     background-color: #272727;
     border-radius: 6px;
-    border: solid #2e93f1 2px;
 }
   
 a:active {
