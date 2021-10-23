@@ -108,6 +108,10 @@ a:active {
     }
 }
 
+d {
+    text-align: left;
+}
+
 @keyframes fadeIn {
 	from {
 		opacity: 0;
