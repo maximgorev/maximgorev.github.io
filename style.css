@@ -22,8 +22,8 @@ a:link {
     padding-bottom: 14px;
     padding-left: 26px;
     padding-right: 26px;
-    border-radius: 14px;
-    border: solid #ffffff36 1px;
+    border-radius: 12px;
+    border: solid #ffffff36 2px;
 }
 
 a:visited {
@@ -31,12 +31,12 @@ a:visited {
 }
   
 a:hover {
-    border: solid #ffffff62 1px;
+    border: solid #ffffff62 2px;
 }
   
 a:active {
     color: #2e93f1;
-    border-radius: 14px;
+    border-radius: 12px;
     text-decoration: none;
-    border: solid #2e93f1 1px;
+    border: solid #2e93f1 2px;
 }
