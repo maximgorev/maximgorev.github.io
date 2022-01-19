@@ -4,13 +4,6 @@ body {
     color: #363636;
 }
 
-.short {display: none;}
-
-@media (max-width: 1200px) {
-    .short {display: inline-block;}
-    .full {display: none;}
-}
-
 a {
     font-size: 140%;
     text-align: center;
