@@ -4,7 +4,7 @@ body {
     color: #363636;
 }
 
-a {
+p {
     font-size: 140%;
     text-align: center;
     position: absolute;
@@ -15,8 +15,8 @@ a {
 }
 
 @media (max-width: 420px) {
-    a {
-        font-size: 120%;
+    p {
+        font-size: 110%;
     }
 }
 
@@ -65,5 +65,5 @@ a:active {
 }
 
 d {
-    font-size: 0%;
+    font-size: 58%;
 }
