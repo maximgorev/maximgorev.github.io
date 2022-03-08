@@ -21,6 +21,7 @@ p {
 }
 
 a:link {
+    color: #363636;
     background-color: #ffffff;
     text-decoration: none;
     padding-top: 14px;
@@ -29,6 +30,8 @@ a:link {
     padding-right: 28px;
     border-radius: 18px;
     border: solid #ffffff 2px;
+    animation: fadeIn 0.5s ease-out both;
+    animation-delay: 0.4s;
 }
 
 @media (max-width: 500px) {
@@ -65,4 +68,30 @@ a:active {
 
 d {
     font-size: 58%;
+    animation: fadeIn 0.5s ease-out both;
+    animation-delay: 0.2s;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20px, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@media (max-width: 800px) {
+    @keyframes fadeIn {
+	    from {
+	    	opacity: 0;
+	    	transform: translate3d(0, -10px, 0);
+	    }
+	    to {
+	    	opacity: 1;
+	    	transform: translate3d(0, 0, 0);
+    	}
+    }
 }
