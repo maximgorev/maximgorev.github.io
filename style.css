@@ -14,10 +14,8 @@ p {
     transform: translate(-50%, -50%);
 }
 
-@media (max-width: 500px) {
-    p {
-        font-size: 120%;
-    }
+d {
+    font-size: 58%;
 }
 
 a:link {
@@ -30,17 +28,6 @@ a:link {
     padding-right: 28px;
     border-radius: 18px;
     border: solid #ffffff 2px;
-}
-
-@media (max-width: 500px) {
-    a:link {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 24px;
-        padding-right: 24px;
-        border-radius: 14px;
-        border: solid #ffffff 2px;
-    }
 }
 
 a:visited {
@@ -58,12 +45,19 @@ a:active {
     border: solid #2e93f1 3px;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
+    p {
+        font-size: 120%;
+    }
     a:active {
         border-radius: 14px;
     }
-}
-
-d {
-    font-size: 58%;
+    a:link {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 24px;
+        padding-right: 24px;
+        border-radius: 14px;
+        border: solid #ffffff 2px;
+    }
 }
