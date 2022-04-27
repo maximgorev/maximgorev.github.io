@@ -20,14 +20,14 @@ d {
 
 a:link {
     color: #fff;
-    background-color: #212121;
+    background-color: #1a1a1a;
     text-decoration: none;
     padding-top: 14px;
     padding-bottom: 14px;
     padding-left: 28px;
     padding-right: 28px;
     border-radius: 18px;
-    border: solid #212121 2px;
+    border: solid #1a1a1a 2px;
 }
 
 a:visited {
@@ -58,6 +58,6 @@ a:active {
         padding-left: 24px;
         padding-right: 24px;
         border-radius: 14px;
-        border: solid #212121 2px;
+        border: solid #1a1a1a 2px;
     }
 }
