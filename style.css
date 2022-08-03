@@ -27,7 +27,7 @@ a:link {
     padding-bottom: 12px;
     padding-left: 34px;
     padding-right: 34px;
-    border-radius: 20px;
+    border-radius: 14px;
     border: solid #1a1a1a 2px;
 }
 
@@ -59,7 +59,7 @@ a:active {
         padding-bottom: 10px;
         padding-left: 26px;
         padding-right: 26px;
-        border-radius: 16px;
+        border-radius: 10px;
         border: solid #1a1a1a 2px;
     }
 }
