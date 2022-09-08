@@ -1,7 +1,7 @@
 body {
     font-family: Avenir Next;
-    background-color: #eeeeee;
-    color: #000;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
 }
 
 p {
@@ -20,15 +20,15 @@ d {
 
 a:link {
     font-size: 100%;
-    color: #000;
-    background-color: #fff;
+    color: rgb(255, 255, 255);
+    background-color: #1d1d1d;
     text-decoration: none;
     padding-top: 12px;
     padding-bottom: 12px;
-    padding-left: 33px;
-    padding-right: 33px;
-    border-radius: 14px;
-    border: solid #fff 2px;
+    padding-left: 42px;
+    padding-right: 42px;
+    border-radius: 16px;
+    border: solid #1d1d1d 1px;
 }
 
 a:visited {
@@ -37,29 +37,36 @@ a:visited {
   
 a:hover {
     text-decoration: none;
-    color: #2e93f1;
+    
+    background-color: #212121;
+    border: solid #3c3c3c 1px;
 }
   
 a:active {
     color: #2e93f1;
     border-radius: 18px;
     text-decoration: none;
-    border: solid #2e93f1 3px;
+    border: solid #2e93f1 1px;
 }
 
 @media (max-width: 500px) {
     p {
         font-size: 120%;
     }
-    a:active {
-        border-radius: 14px;
-    }
+
     a:link {
         padding-top: 10px;
         padding-bottom: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
-        border-radius: 10px;
-        border: solid #fff 2px;
+        padding-left: 34px;
+        padding-right: 34px;
+        border-radius: 14px;
+        border: solid #1d1d1d 1px;
+    }
+
+    a:active {
+        color: #2e93f1;
+        border-radius: 14px;
+        text-decoration: none;
+        border: solid #2e93f1 1px;
     }
 }
