@@ -27,7 +27,7 @@ a:link {
     padding-bottom: 12px;
     padding-left: 42px;
     padding-right: 42px;
-    border-radius: 25px;
+    border-radius: 22px;
     border: solid #1d1d1d 1px;
 }
 
@@ -44,7 +44,7 @@ a:hover {
   
 a:active {
     color: #2e93f1;
-    border-radius: 25px;
+    border-radius: 22px;
     text-decoration: none;
     border: solid #2e93f1 1px;
 }
@@ -59,13 +59,13 @@ a:active {
         padding-bottom: 10px;
         padding-left: 34px;
         padding-right: 34px;
-        border-radius: 19px;
+        border-radius: 16px;
         border: solid #1d1d1d 1px;
     }
 
     a:active {
         color: #2e93f1;
-        border-radius: 19px;
+        border-radius: 16px;
         text-decoration: none;
         border: solid #2e93f1 1px;
     }
