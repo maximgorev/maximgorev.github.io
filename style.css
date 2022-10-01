@@ -43,7 +43,6 @@ a:hover {
 }
   
 a:active {
-    color: #2e93f1;
     border-radius: 20px;
     text-decoration: none;
     border: solid #2e93f1 1px;
@@ -68,5 +67,9 @@ a:active {
         border-radius: 14px;
         text-decoration: none;
         border: solid #2e93f1 1px;
+    }
+    
+    a:visited {
+    text-decoration: none;
     }
 }
