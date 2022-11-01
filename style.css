@@ -19,6 +19,10 @@ d {
     text-align: justify;
 }
 
+at {
+    color: rgb(228, 228, 228);
+}
+
 msg {
     color: rgb(255, 255, 255);
     font-size: 93%;
