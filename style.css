@@ -16,60 +16,67 @@ p {
 
 d {
     font-size: 60%;
+    text-align: justify;
 }
 
-a:link {
-    font-size: 100%;
+msg {
     color: rgb(255, 255, 255);
+    font-size: 93%;
     background-color: #1d1d1d;
     text-decoration: none;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 42px;
-    padding-right: 42px;
-    border-radius: 20px;
-    border: solid #1d1d1d 1px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 26px;
+    padding-right: 18px;
+    border-radius: 17px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
 }
 
-a:visited {
+msg2 {
+    color: rgb(255, 255, 255);
+    font-size: 93%;
+    background-color: #353535;
     text-decoration: none;
-}
-  
-a:hover {
-    text-decoration: none;
-    
-    background-color: #212121;
-    border: solid #3c3c3c 1px;
-}
-  
-a:active {
-    border-radius: 20px;
-    text-decoration: none;
-    border: solid #2e93f1 1px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 18px;
+    padding-right: 26px;
+    border-radius: 17px;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
 }
 
 @media (max-width: 500px) {
     p {
-        font-size: 120%;
+        font-size: 110%;
     }
 
-    a:link {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 34px;
-        padding-right: 34px;
-        border-radius: 14px;
-        border: solid #1d1d1d 1px;
-    }
-
-    a:active {
-        color: #2e93f1;
-        border-radius: 14px;
+    msg {
+        color: rgb(255, 255, 255);
+        font-size: 93%;
+        background-color: #1d1d1d;
         text-decoration: none;
-        border: solid #2e93f1 1px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        padding-left: 20px;
+        padding-right: 14px;
+        border-radius: 12px;
+        border-top-right-radius: 0%;
+        border-bottom-right-radius: 0%;
     }
-    
-    a:visited {
-    text-decoration: none;
+
+    msg2 {
+        color: rgb(255, 255, 255);
+        font-size: 93%;
+        background-color: #353535;
+        text-decoration: none;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        padding-left: 14px;
+        padding-right: 20px;
+        border-radius: 12px;
+        border-top-left-radius: 0%;
+        border-bottom-left-radius: 0%;
     }
 }
