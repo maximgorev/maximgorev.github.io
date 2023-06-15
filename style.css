@@ -21,7 +21,7 @@ d {
 
 msg {
     color: rgb(255, 255, 255);
-    font-size: 93%;
+    font-size: 73%;
     background-color: #1d1d1d;
     text-decoration: none;
     padding-top: 14px;
@@ -35,7 +35,7 @@ msg {
 
 msg2 {
     color: rgb(255, 255, 255);
-    font-size: 93%;
+    font-size: 73%;
     background-color: #353535;
     text-decoration: none;
     padding-top: 14px;
@@ -54,7 +54,7 @@ msg2 {
 
     msg {
         color: rgb(255, 255, 255);
-        font-size: 93%;
+        font-size: 73%;
         background-color: #1d1d1d;
         text-decoration: none;
         padding-top: 11px;
@@ -68,7 +68,7 @@ msg2 {
 
     msg2 {
         color: rgb(255, 255, 255);
-        font-size: 93%;
+        font-size: 73%;
         background-color: #353535;
         text-decoration: none;
         padding-top: 11px;
