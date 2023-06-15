@@ -43,8 +43,6 @@ msg2 {
     padding-left: 18px;
     padding-right: 26px;
     border-radius: 17px;
-    border-top-left-radius: 0%;
-    border-bottom-left-radius: 0%;
 }
 
 @media (max-width: 500px) {
