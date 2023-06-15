@@ -19,20 +19,6 @@ d {
     text-align: justify;
 }
 
-msg {
-    color: rgb(255, 255, 255);
-    font-size: 73%;
-    background-color: #1d1d1d;
-    text-decoration: none;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 26px;
-    padding-right: 18px;
-    border-radius: 17px;
-    border-top-right-radius: 0%;
-    border-bottom-right-radius: 0%;
-}
-
 msg2 {
     color: rgb(255, 255, 255);
     font-size: 73%;
@@ -48,20 +34,6 @@ msg2 {
 @media (max-width: 500px) {
     p {
         font-size: 110%;
-    }
-
-    msg {
-        color: rgb(255, 255, 255);
-        font-size: 73%;
-        background-color: #1d1d1d;
-        text-decoration: none;
-        padding-top: 11px;
-        padding-bottom: 11px;
-        padding-left: 20px;
-        padding-right: 14px;
-        border-radius: 12px;
-        border-top-right-radius: 0%;
-        border-bottom-right-radius: 0%;
     }
 
     msg2 {
