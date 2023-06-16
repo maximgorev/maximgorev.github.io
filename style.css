@@ -22,7 +22,7 @@ d {
 msg2 {
     color: rgb(255, 255, 255);
     font-size: 85%;
-    background-color: #353535;
+    background-color: #101010;
     text-decoration: none;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -39,7 +39,6 @@ msg2 {
     msg2 {
         color: rgb(255, 255, 255);
         font-size: 85%;
-        background-color: #353535;
         text-decoration: none;
         padding-top: 11px;
         padding-bottom: 11px;
