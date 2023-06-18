@@ -20,35 +20,44 @@ d {
 }
 
 msg2 {
-    color: rgb(255, 255, 255);
+    color: #568df3;
     font-size: 85%;
-    background-color: #232323;
+    background-color: #17305f;
     text-decoration: none;
     padding-top: 14px;
     padding-bottom: 14px;
     padding-left: 22px;
     padding-right: 22px;
-    border-radius: 22px;
+    border-radius: 24px;
+    border-top: 1px solid #689cf5;
+    border-bottom: 3px solid #0e2139;
 }
 
-msg2:hover {
-  background-color: #292929;
-  border: 1px solid #454545;
+a {
+  color: #4c8af5;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: #4c8af5;
   text-decoration: none;
+  background-color: #0b182e;
 }
 
 a:visited {
   text-decoration: none;
-  color: rgb(255, 255, 255); 
+  color: rgb(0, 0, 0);
 }
 
 a:link {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #4c8af5;
 }
 
 a:active {
   color: rgb(11, 184, 252);
+  background-color: #17305f;
+  border-radius: 5px;
 }
 
 msg2:active {
@@ -71,6 +80,6 @@ msg2:active {
         padding-bottom: 11px;
         padding-left: 18px;
         padding-right: 18px;
-        border-radius: 16px;
+        border-radius: 18px;
     }
 }
