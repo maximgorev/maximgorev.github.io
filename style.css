@@ -22,6 +22,9 @@ d {
 a:hover {
   color: #ffffff;
   text-decoration: none;
+  background-color: #143052;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 a:visited {
@@ -31,13 +34,13 @@ a:visited {
 
 a:link {
   text-decoration: none;
-  border-bottom: 2px solid #12a5db;
   color: #ffffff;
+  border-bottom: 2px solid #2bbaee;
 }
 
 a:active {
-  color: #12a5db;
-  background-color: #0e2139;
+  color: #2bbaee;
+  background-color: #143052;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
