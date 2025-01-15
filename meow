@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+    <meta charset="UTF-8">
+    <meta name="author" content="Meow">
+    <link rel="icon" href="icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow</title>
+    <link rel="stylesheet" href="style.css">
+
+    <body>
+        <p>
+            <d>The Meow app collects no personal data. If needed, contact me <a href="mailto:slug_tiger213@simplelogin.com">here.</a>.</d>
+        </p>
+    </body>
+    
+</html>
