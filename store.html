@@ -2,144 +2,163 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Cupcake Store – Ultimate 90s Edition</title>
+<title>Cupcake Store – Ultimate 3D 90s Edition</title>
 <style>
 body {
-    background-color: #000000;
-    color: #00ff00;
-    font-family: "Comic Sans MS", "Courier New", monospace;
-    text-align: center;
     margin: 0;
     padding: 0;
-    background-image: url('https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif');
-    background-repeat: repeat;
-    background-attachment: fixed;
+    background-color: #000;
+    font-family: "Comic Sans MS", "Courier New", monospace;
+    color: #0f0;
+    perspective: 1000px;
+    overflow-x: hidden;
 }
 
 body::before {
-    content: "";
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: url('https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif') repeat;
-    opacity: 0.05;
-    z-index: -1;
+    content:"";
+    position:fixed;
+    top:0; left:0;
+    width:100%; height:100%;
+    background: linear-gradient(45deg, #ff00ff 25%, #00ffff 25%, #00ffff 50%, #ff00ff 50%, #ff00ff 75%, #00ffff 75%, #00ffff);
+    background-size: 100px 100px;
+    opacity:0.05;
+    z-index:-1;
+    animation: bgmove 20s linear infinite;
+}
+
+@keyframes bgmove {
+    0% {background-position:0 0;}
+    100% {background-position:1000px 1000px;}
 }
 
 marquee {
-    font-size: 28px;
-    color: #ff00ff;
-    font-weight: bold;
-    border: 5px dotted #00ff00;
-    background-color: #0000ff;
-    padding: 10px;
+    font-size:28px;
+    color:#ff00ff;
+    font-weight:bold;
+    border:4px dotted #0f0;
+    background-color:#00f;
+    padding:10px;
+    text-shadow:2px 2px #0ff;
     animation: blink 1.5s infinite;
 }
 
 .frame {
-    border: 8px double #ff00ff;
-    padding: 25px;
-    margin: 25px auto;
-    background: linear-gradient(135deg, #101010, #303030);
-    width: 85%;
-    box-shadow: 0 0 25px #ff00ff, 0 0 50px #00ffff;
-    animation: pulse 3s infinite alternate;
+    margin: 30px auto;
+    width:85%;
+    padding:30px;
+    background:linear-gradient(135deg,#111,#333);
+    border:6px groove #ff0;
+    box-shadow: 0 0 30px #ff00ff, 0 0 50px #00ffff, 0 0 70px #ff0;
+    transform-style: preserve-3d;
+    animation: framepulse 3s infinite alternate;
+}
+
+@keyframes framepulse {
+    0% {transform: rotateY(0deg) rotateX(0deg); box-shadow: 0 0 30px #ff00ff,0 0 50px #0ff;}
+    50% {transform: rotateY(3deg) rotateX(2deg); box-shadow: 0 0 50px #ff00ff,0 0 80px #0ff;}
+    100% {transform: rotateY(0deg) rotateX(0deg); box-shadow: 0 0 30px #ff00ff,0 0 50px #0ff;}
 }
 
 h1 {
-    color: #ff00ff;
-    text-shadow: 3px 3px #00ffff, -2px -2px #ffff00;
-    border: 4px groove #ffff00;
-    padding: 15px;
-    margin: 20px auto;
-    background-color: #0000ff;
+    color:#f0f;
+    text-shadow:3px 3px #0ff, -2px -2px #ff0;
+    padding:15px;
+    margin:20px auto;
+    background-color:#00f;
+    border:4px groove #ff0;
     animation: blink 1s infinite;
+    transform: translateZ(30px);
 }
 
 h2 {
-    color: #00ffff;
-    text-decoration: underline;
-    border: 3px dashed #ff00ff;
-    padding: 8px;
-    background-color: #800080;
-    margin: 20px auto;
+    color:#0ff;
+    text-decoration:underline;
+    border:3px dashed #f0f;
+    padding:8px;
+    background-color:#800080;
+    margin:20px auto;
+    transform: translateZ(20px);
 }
 
 p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 20px auto;
-    border: 3px inset #ff00ff;
-    background-color: #101010;
-    color: #ffffff;
-    padding: 10px;
+    font-size:16px;
+    line-height:1.5;
+    margin:20px auto;
+    border:3px inset #f0f;
+    background-color:#101010;
+    color:#fff;
+    padding:10px;
+    transform: translateZ(10px);
 }
 
 img {
-    border: 6px double #ff00ff;
-    padding: 5px;
-    margin: 20px 0;
+    border:6px double #f0f;
+    padding:5px;
+    margin:20px 0;
+    width:300px;
+    height:200px;
     animation: float 3s infinite alternate, spin 10s linear infinite;
+    transform-style: preserve-3d;
     transition: transform 0.5s, filter 0.5s;
 }
 
 img:hover {
-    transform: scale(1.1) rotate(5deg);
+    transform: rotateY(15deg) rotateX(10deg) scale(1.2);
     filter: hue-rotate(180deg);
 }
 
+.price-counter {
+    font-size:36px;
+    font-weight:bold;
+    color:#ff0;
+    text-shadow:2px 2px #f0f, -2px -2px #0ff;
+    animation: blink 0.7s infinite, counter3d 5s infinite alternate;
+    transform-style: preserve-3d;
+}
+
+@keyframes counter3d {
+    0% { transform: rotateY(0deg) rotateX(0deg); }
+    50% { transform: rotateY(20deg) rotateX(10deg); }
+    100% { transform: rotateY(0deg) rotateX(0deg); }
+}
+
 input[type="submit"] {
-    background-color: #ff00ff;
-    color: #00ffff;
-    font-weight: bold;
-    font-size: 22px;
-    border: 4px outset #00ff00;
-    padding: 15px 30px;
-    cursor: pointer;
+    background-color:#f0f;
+    color:#0ff;
+    font-weight:bold;
+    font-size:22px;
+    border:4px outset #0f0;
+    padding:15px 30px;
+    cursor:pointer;
     animation: blink 1s infinite;
+    transform-style: preserve-3d;
     transition: transform 0.3s, background-color 0.3s;
 }
 
 input[type="submit"]:hover {
-    background-color: #00ff00;
-    color: #ff00ff;
-    border-style: inset;
-    transform: scale(1.2) rotate(-5deg);
+    background-color:#0f0;
+    color:#f0f;
+    border-style:inset;
+    transform: rotateY(10deg) rotateX(-5deg) scale(1.2);
 }
 
 hr {
-    border: 3px double #00ffff;
-    width: 80%;
-    margin: 20px auto;
+    border:3px double #0ff;
+    width:80%;
+    margin:20px auto;
 }
 
-b {
-    color: #ffff00;
-    text-shadow: 1px 1px #ff00ff;
-}
+b { color:#ff0; text-shadow:1px 1px #f0f;}
+i { color:#f00; font-size:14px;}
 
-i {
-    color: #ff0000;
-    font-size: 14px;
-}
-
-a:link { color: #00ffff; text-decoration: underline; }
-a:visited { color: #ff00ff; }
-a:hover { color: #ffff00; }
-a:active { color: #ff00ff; }
-
-.price-counter {
-    font-size: 32px;
-    font-weight: bold;
-    color: #ffff00;
-    text-shadow: 2px 2px #ff00ff;
-    animation: blink 0.7s infinite;
-    margin: 15px 0;
-}
+a:link { color:#0ff; text-decoration:underline; }
+a:visited { color:#f0f; }
+a:hover { color:#ff0; }
+a:active { color:#f0f; }
 
 @keyframes blink {
-    0%,50%,100% { opacity: 1; }
-    25%,75% { opacity: 0; }
+    0%,50%,100% { opacity:1; }
+    25%,75% { opacity:0; }
 }
 
 @keyframes float {
@@ -148,19 +167,14 @@ a:active { color: #ff00ff; }
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-@keyframes pulse {
-    0% { box-shadow: 0 0 20px #ff00ff, 0 0 40px #00ffff; }
-    100% { box-shadow: 0 0 40px #ff00ff, 0 0 80px #00ffff; }
+    0% { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
 }
 </style>
 </head>
 <body>
 <marquee behavior="scroll" direction="left">
-    WELCOME TO THE MOST LEGENDARY CUPCAKE STORE OF 1999!!!
+    WELCOME TO THE MOST LEGENDARY 3D CUPCAKE STORE OF 1999!!!
 </marquee>
 
 <div class="frame">
