@@ -1,163 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Cupcake Store</title>
-    <style>
-        body {
-            background-color: #000000;
-            color: #00ff00;
-            font-family: "Comic Sans MS", "Courier New", monospace;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            background-image: url('https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif');
-            background-repeat: repeat;
-            background-attachment: fixed;
-        }
+<meta charset="UTF-8">
+<title>Cupcake Store – Ultimate 90s Edition</title>
+<style>
+body {
+    background-color: #000000;
+    color: #00ff00;
+    font-family: "Comic Sans MS", "Courier New", monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
 
-        h1 {
-            color: #ff00ff;
-            text-shadow: 3px 3px #00ffff;
-            border: 4px groove #ffff00;
-            padding: 15px;
-            margin: 20px auto;
-            background-color: #0000ff;
-            animation: blink 1s infinite;
-        }
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: url('https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif') repeat;
+    opacity: 0.05;
+    z-index: -1;
+}
 
-        h2 {
-            color: #00ffff;
-            text-decoration: underline;
-            border: 3px dashed #ff00ff;
-            padding: 8px;
-            background-color: #800080;
-            margin: 20px auto;
-        }
+marquee {
+    font-size: 28px;
+    color: #ff00ff;
+    font-weight: bold;
+    border: 5px dotted #00ff00;
+    background-color: #0000ff;
+    padding: 10px;
+    animation: blink 1.5s infinite;
+}
 
-        p {
-            font-size: 16px;
-            line-height: 1.5;
-            margin: 20px auto;
-            border: 3px inset #ff00ff;
-            background-color: #101010;
-            color: #ffffff;
-            padding: 10px;
-        }
+.frame {
+    border: 8px double #ff00ff;
+    padding: 25px;
+    margin: 25px auto;
+    background: linear-gradient(135deg, #101010, #303030);
+    width: 85%;
+    box-shadow: 0 0 25px #ff00ff, 0 0 50px #00ffff;
+    animation: pulse 3s infinite alternate;
+}
 
-        img {
-            border: 6px double #ff00ff;
-            padding: 5px;
-            margin: 20px 0;
-            animation: float 3s infinite alternate;
-        }
+h1 {
+    color: #ff00ff;
+    text-shadow: 3px 3px #00ffff, -2px -2px #ffff00;
+    border: 4px groove #ffff00;
+    padding: 15px;
+    margin: 20px auto;
+    background-color: #0000ff;
+    animation: blink 1s infinite;
+}
 
-        input[type="submit"] {
-            background-color: #ff00ff;
-            color: #00ffff;
-            font-weight: bold;
-            font-size: 20px;
-            border: 4px outset #00ff00;
-            padding: 12px 25px;
-            cursor: pointer;
-            animation: blink 1.5s infinite;
-        }
+h2 {
+    color: #00ffff;
+    text-decoration: underline;
+    border: 3px dashed #ff00ff;
+    padding: 8px;
+    background-color: #800080;
+    margin: 20px auto;
+}
 
-        input[type="submit"]:hover {
-            background-color: #00ff00;
-            color: #ff00ff;
-            border-style: inset;
-        }
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px auto;
+    border: 3px inset #ff00ff;
+    background-color: #101010;
+    color: #ffffff;
+    padding: 10px;
+}
 
-        hr {
-            border: 3px double #00ffff;
-            width: 80%;
-            margin: 20px auto;
-        }
+img {
+    border: 6px double #ff00ff;
+    padding: 5px;
+    margin: 20px 0;
+    animation: float 3s infinite alternate, spin 10s linear infinite;
+    transition: transform 0.5s, filter 0.5s;
+}
 
-        b {
-            color: #ffff00;
-            text-shadow: 1px 1px #ff00ff;
-        }
+img:hover {
+    transform: scale(1.1) rotate(5deg);
+    filter: hue-rotate(180deg);
+}
 
-        i {
-            color: #ff0000;
-            font-size: 14px;
-        }
+input[type="submit"] {
+    background-color: #ff00ff;
+    color: #00ffff;
+    font-weight: bold;
+    font-size: 22px;
+    border: 4px outset #00ff00;
+    padding: 15px 30px;
+    cursor: pointer;
+    animation: blink 1s infinite;
+    transition: transform 0.3s, background-color 0.3s;
+}
 
-        a:link { color: #00ffff; text-decoration: underline; }
-        a:visited { color: #ff00ff; }
-        a:hover { color: #ffff00; }
-        a:active { color: #ff00ff; }
+input[type="submit"]:hover {
+    background-color: #00ff00;
+    color: #ff00ff;
+    border-style: inset;
+    transform: scale(1.2) rotate(-5deg);
+}
 
-        marquee {
-            font-size: 24px;
-            color: #ff00ff;
-            font-weight: bold;
-            border: 3px dotted #00ff00;
-            background-color: #0000ff;
-            padding: 10px;
-            animation: blink 2s infinite;
-        }
+hr {
+    border: 3px double #00ffff;
+    width: 80%;
+    margin: 20px auto;
+}
 
-        .frame {
-            border: 6px groove #ff00ff;
-            padding: 20px;
-            margin: 20px auto;
-            background-color: #101010;
-            width: 85%;
-        }
+b {
+    color: #ffff00;
+    text-shadow: 1px 1px #ff00ff;
+}
 
-        @keyframes blink {
-            0%, 50%, 100% { opacity: 1; }
-            25%, 75% { opacity: 0; }
-        }
+i {
+    color: #ff0000;
+    font-size: 14px;
+}
 
-        @keyframes float {
-            0% { transform: translateY(0px); }
-            100% { transform: translateY(-15px); }
-        }
+a:link { color: #00ffff; text-decoration: underline; }
+a:visited { color: #ff00ff; }
+a:hover { color: #ffff00; }
+a:active { color: #ff00ff; }
 
-        body::before {
-            content: "";
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: url('https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif') repeat;
-            opacity: 0.1;
-            z-index: -1;
-        }
-    </style>
+.price-counter {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffff00;
+    text-shadow: 2px 2px #ff00ff;
+    animation: blink 0.7s infinite;
+    margin: 15px 0;
+}
+
+@keyframes blink {
+    0%,50%,100% { opacity: 1; }
+    25%,75% { opacity: 0; }
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(-20px); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 20px #ff00ff, 0 0 40px #00ffff; }
+    100% { box-shadow: 0 0 40px #ff00ff, 0 0 80px #00ffff; }
+}
+</style>
 </head>
 <body>
-    <marquee behavior="scroll" direction="left">
-        CUPCAKE STORE
-    </marquee>
+<marquee behavior="scroll" direction="left">
+    WELCOME TO THE MOST LEGENDARY CUPCAKE STORE OF 1999!!!
+</marquee>
 
-    <div class="frame">
-        <h1>It’s true. I sell cupcakes.</h1>
+<div class="frame">
+    <h1>It’s true. I sell cupcakes.</h1>
 
-        <img src="https://via.placeholder.com/300x200?text=Your+Cupcake+Photo+Here" alt="Cupcake Photo">
+    <img src="https://via.placeholder.com/300x200?text=Your+Cupcake+Photo+Here" alt="Cupcake Photo">
 
-        <p>
-            And just for you, a 70% discount will be applied at checkout.<br>
-            Some losers will say it’s still expensive… but winners grab theirs before it gets too moldy.<br>
-            Which side are you on?
-        </p>
+    <div class="price-counter">$98,500</div>
 
-        <form action="#" method="post">
-            <input type="submit" value="BUY NOW">
-        </form>
+    <p>
+        And just for you, a 70% discount will be applied at checkout.<br>
+        Some losers will say it’s still expensive… but winners grab theirs before it gets too moldy.<br>
+        Which side are you on?
+    </p>
 
-        <p><i>Note: No revenue is allocated to charitable causes.</i></p>
+    <form action="#" method="post">
+        <input type="submit" value="BUY NOW">
+    </form>
 
-        <hr>
+    <p><i>No revenue is allocated to charitable causes.</i></p>
 
-        <h2>FAQ</h2>
-        <p><b>Is this a ripoff?</b><br>
-        Honestly, yes.</p>
-    </div>
+    <hr>
+
+    <h2>FAQ</h2>
+    <p><b>Is this a ripoff?</b><br>
+    Honestly, yes.</p>
+</div>
 </body>
 </html>
