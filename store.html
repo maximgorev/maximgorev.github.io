@@ -2,14 +2,143 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="store.css">
     <title>Cupcake Store</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #00ff00;
+            font-family: "Comic Sans MS", "Courier New", monospace;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif');
+            background-repeat: repeat;
+            background-attachment: fixed;
+        }
+
+        h1 {
+            color: #ff00ff;
+            text-shadow: 3px 3px #00ffff;
+            border: 4px groove #ffff00;
+            padding: 15px;
+            margin: 20px auto;
+            background-color: #0000ff;
+            animation: blink 1s infinite;
+        }
+
+        h2 {
+            color: #00ffff;
+            text-decoration: underline;
+            border: 3px dashed #ff00ff;
+            padding: 8px;
+            background-color: #800080;
+            margin: 20px auto;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 20px auto;
+            border: 3px inset #ff00ff;
+            background-color: #101010;
+            color: #ffffff;
+            padding: 10px;
+        }
+
+        img {
+            border: 6px double #ff00ff;
+            padding: 5px;
+            margin: 20px 0;
+            animation: float 3s infinite alternate;
+        }
+
+        input[type="submit"] {
+            background-color: #ff00ff;
+            color: #00ffff;
+            font-weight: bold;
+            font-size: 20px;
+            border: 4px outset #00ff00;
+            padding: 12px 25px;
+            cursor: pointer;
+            animation: blink 1.5s infinite;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #00ff00;
+            color: #ff00ff;
+            border-style: inset;
+        }
+
+        hr {
+            border: 3px double #00ffff;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        b {
+            color: #ffff00;
+            text-shadow: 1px 1px #ff00ff;
+        }
+
+        i {
+            color: #ff0000;
+            font-size: 14px;
+        }
+
+        a:link { color: #00ffff; text-decoration: underline; }
+        a:visited { color: #ff00ff; }
+        a:hover { color: #ffff00; }
+        a:active { color: #ff00ff; }
+
+        marquee {
+            font-size: 24px;
+            color: #ff00ff;
+            font-weight: bold;
+            border: 3px dotted #00ff00;
+            background-color: #0000ff;
+            padding: 10px;
+            animation: blink 2s infinite;
+        }
+
+        .frame {
+            border: 6px groove #ff00ff;
+            padding: 20px;
+            margin: 20px auto;
+            background-color: #101010;
+            width: 85%;
+        }
+
+        @keyframes blink {
+            0%, 50%, 100% { opacity: 1; }
+            25%, 75% { opacity: 0; }
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            100% { transform: translateY(-15px); }
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif') repeat;
+            opacity: 0.1;
+            z-index: -1;
+        }
+    </style>
 </head>
-<body bgcolor="#ffffff" text="#000000" link="#0000ff" vlink="#800080" alink="#ff0000">
-    <center>
+<body>
+    <marquee behavior="scroll" direction="left">
+        CUPCAKE STORE
+    </marquee>
+
+    <div class="frame">
         <h1>It’s true. I sell cupcakes.</h1>
 
-        <!-- Placeholder image -->
         <img src="https://via.placeholder.com/300x200?text=Your+Cupcake+Photo+Here" alt="Cupcake Photo">
 
         <p>
@@ -22,13 +151,13 @@
             <input type="submit" value="BUY NOW">
         </form>
 
-        <p><i>No revenue is allocated to charitable causes.</i></p>
+        <p><i>Note: No revenue is allocated to charitable causes.</i></p>
 
         <hr>
 
         <h2>FAQ</h2>
         <p><b>Is this a ripoff?</b><br>
         Honestly, yes.</p>
-    </center>
+    </div>
 </body>
 </html>
