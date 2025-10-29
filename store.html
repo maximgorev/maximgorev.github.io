@@ -2,14 +2,26 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Cupcake Store – Minimal</title>
+<title>Cupcake Store – Minimal Centered</title>
 <style>
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #000000;
     color: #ffffff;
-    margin: 40px;
-    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    max-width: 500px;
+    padding: 20px;
 }
 
 h1, h2 {
@@ -23,7 +35,7 @@ p {
 
 img {
     display: block;
-    margin: 20px 0;
+    margin: 20px auto;
     max-width: 100%;
     height: auto;
 }
@@ -48,23 +60,25 @@ input[type="submit"]:hover {
 </head>
 <body>
 
-<h1>It’s true. I sell cupcakes.</h1>
+<div class="container">
+    <h1>It’s true. I sell cupcakes.</h1>
 
-<img src="https://via.placeholder.com/300x200?text=Your+Cupcake+Photo+Here" alt="Cupcake Photo">
+    <img src="https://via.placeholder.com/300x200?text=Your+Cupcake+Photo+Here" alt="Cupcake Photo">
 
-<p>And just for you, a 70% discount will be applied at checkout.</p>
-<p>Some losers will say it’s still expensive… but winners grab theirs before it gets too moldy.</p>
-<p>Which side are you on?</p>
+    <p>And just for you, a 70% discount will be applied at checkout.</p>
+    <p>Some losers will say it’s still expensive… but winners grab theirs before it gets too moldy.</p>
+    <p>Which side are you on?</p>
 
-<form action="#" method="post">
-    <input type="submit" value="BUY NOW">
-</form>
+    <form action="#" method="post">
+        <input type="submit" value="BUY NOW">
+    </form>
 
-<p><i>No revenue is allocated to charitable causes.</i></p>
+    <p><i>Note: No revenue is allocated to charitable causes.</i></p>
 
-<h2>FAQ</h2>
-<p><b>Is this a ripoff?</b><br>
-Honestly, yes.</p>
+    <h2>FAQ</h2>
+    <p><b>Is this a ripoff?</b><br>
+    Honestly, yes.</p>
+</div>
 
 </body>
 </html>
