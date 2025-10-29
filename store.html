@@ -2,83 +2,69 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Minimalist Cupcake Store</title>
+<title>Cupcake Store – Minimal</title>
 <style>
 body {
-    font-family: "Avenir Next", sans-serif;
+    font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #000000;
     color: #ffffff;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
+    margin: 40px;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    margin: 20px 0 10px 0;
+    font-weight: normal;
 }
 
 p {
-    font-size: 150%;
-    text-align: center;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
+    margin: 10px 0;
 }
 
-d {
-    font-size: 75%;
-    text-align: justify;
+img {
     display: block;
-    width: 80%;
-    margin: 0 auto;
-    line-height: 1.5;
+    margin: 20px 0;
+    max-width: 100%;
+    height: auto;
 }
 
-a:link {
-    text-decoration: none;
-    color: #ffffff;
-    border-bottom: 2px solid #2bbaee;
+form {
+    margin: 20px 0;
 }
 
-a:visited {
-    text-decoration: none;
+input[type="submit"] {
+    background-color: #ffffff;
     color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
-a:hover {
-    color: #ffffff;
-    text-decoration: none;
-    background-color: #143052;
-}
-
-a:active {
-    color: #2bbaee;
-    background-color: #143052;
-}
-
-@media (max-width: 500px) {
-    p {
-        font-size: 110%;
-    }
+input[type="submit"]:hover {
+    background-color: #dddddd;
 }
 </style>
 </head>
 <body>
 
-<p>It’s true. I sell cupcakes.</p>
-<d>
-    And just for you, a 70% discount will be applied at checkout.<br>
-    Some losers will say it’s still expensive… but winners grab theirs before it gets too moldy.<br>
-    Which side are you on?
-</d>
+<h1>It’s true. I sell cupcakes.</h1>
 
-<p style="top: 70%;">
-    <a href="#">BUY NOW</a>
-</p>
+<img src="https://via.placeholder.com/300x200?text=Your+Cupcake+Photo+Here" alt="Cupcake Photo">
 
-<d style="top: 85%; font-size: 60%;">
-    FAQ — Is this a ripoff? Honestly, yes.
-</d>
+<p>And just for you, a 70% discount will be applied at checkout.</p>
+<p>Some losers will say it’s still expensive… but winners grab theirs before it gets too moldy.</p>
+<p>Which side are you on?</p>
+
+<form action="#" method="post">
+    <input type="submit" value="BUY NOW">
+</form>
+
+<p><i>No revenue is allocated to charitable causes.</i></p>
+
+<h2>FAQ</h2>
+<p><b>Is this a ripoff?</b><br>
+Honestly, yes.</p>
 
 </body>
 </html>
